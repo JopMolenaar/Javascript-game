@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    place-content: center;
+    z-index: -4;
+}
+.section {
+    background-color: rgb(202, 106, 42);
+    cursor: none;
+    height: 95vh;
+    margin-left: 200px;
+    width: 1250px;
+    z-index: -3;
+}
+
+
+/* cursor */
+#rups {
+    height: auto;
+    width: 50px;
+    position: absolute;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+
+/* game over text */
+#deadmessage {
+    padding-top: 30vh;
+    height: 20em;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    font-size: 10em;
+    color: whitesmoke;
+    cursor: none;
+
+}
+
+#book, #book2, #book3, #book4, #book5{
+    height: 50px;
+    position: absolute;
+    display: block;
+
+}
+
+
+
+#mepper {
+    height: 100px;
+    position: absolute;
+    display: block;
+}
+
+.gameover {
+    background-color: grey;
+    z-index: 96;
+    opacity: 0.8;
+}
+
+#restart {
+    position: fixed;
+    height: 5vh;
+    margin-left: 0;
+    width: 100vw;
+    z-index: 97;
+}
+
+.score {
+    position: fixed;
+    margin-top: 50vh;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 2em;
+    color: whitesmoke;
+    padding-top: 0.5em;
+    z-index: 80;
+}
+
+.highscore {
+    position: fixed;
+    margin-top: 60vh;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1.7em;
+    color: whitesmoke;
+    padding-top: 0.5em;
+    z-index: 80;
+}
+
+#dot {
+    width: 20px;
+    position: absolute;
+    display: block;
+}
+
+#knuppel {
+    height: 100px;
+    position: absolute;
+    display: block;
+}
+
+#slipper {
+    height: 80px;
+    position: absolute;
+    display: block;
+}
+
+#pan {
+    height: 100px;
+    position: absolute;
+    display: block;
+}
+
+.score100 {
+    background: no-repeat center/140% url("../afbeeldingen/goat.png");
+}
