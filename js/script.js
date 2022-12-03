@@ -3,7 +3,7 @@ var cursor = document.querySelector("#rups");
 
 // als je dood bent (game over)
 var doodTekst = document.querySelector("#deadmessage");
-var randomDoodTekst = ["haha you're so bad", "better luck next time", "game over", "OOF", "LMFAO", "hahahahahaha", "just quit", "..."]
+var randomDoodTekst = ["haha you're so bad", "better luck next time", "game over", "hahahahahaha"]
 var randomTekst
 
 // wapens
@@ -226,7 +226,7 @@ function dood(){
         doodTekst.textContent = "You are the GOAT";
     } else {
         // random text uit de array wordt laten zien
-        randomTekst = Math.floor(Math.random()*8);
+        randomTekst = Math.floor(Math.random()*4);
         doodTekst.textContent = randomDoodTekst[randomTekst];
     }
     
